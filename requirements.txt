@@ -1,0 +1,11 @@
+# Deep learning (Keras is bundled with TensorFlow; h5py is pulled in automatically)
+tensorflow>=2.12,<2.20
+
+# Numerical computing
+numpy>=1.23,<2.2
+
+# Webcam capture, face detection (Haar cascade), drawing
+opencv-python>=4.8,<5.0
+
+# Class-weight computation used in train_model.py
+scikit-learn>=1.3
